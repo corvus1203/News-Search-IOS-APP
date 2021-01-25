@@ -60,7 +60,7 @@ class HeadlinesViewController: ButtonBarPagerTabStripViewController {
             return
         }
         let headers: HTTPHeaders = [
-          "Ocp-Apim-Subscription-Key": "e1399e98e09843db857df5c98a6c3fc4",
+          "Ocp-Apim-Subscription-Key": "",
         ]
         let url = "https://api.bing.microsoft.com/v7.0/suggestions?q=" + keyword.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         Alamofire.request(url, headers: headers).responseJSON( completionHandler: { autoSgstRes in
