@@ -4,8 +4,8 @@ const axios = require('axios');
 const cors = require('cors');
 const googleTrends = require('google-trends-api');
 
-const guardianKey = '1989bc9d-f1c6-4ac3-9d40-343f23dafce8';
-const nytimesKey = 'khlNUeiHerV4znfLHZAod4lKD4xZfXfy';
+const guardianKey = '';
+const nytimesKey = '';
 
 const guardianDefaultImg = 'https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png';
 const nytimesDefaultImg = 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Nytimes_hq.jpg';
